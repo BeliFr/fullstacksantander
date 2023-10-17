@@ -1,9 +1,6 @@
 name: Continuos Integration/Contiuos Delivery
 
-on:
- push:
-  branches:
-    - master
+on: [push]
 
 
 jobs:
@@ -19,4 +16,5 @@ jobs:
           node-version: 18
 
       - run: npm install
+
       
