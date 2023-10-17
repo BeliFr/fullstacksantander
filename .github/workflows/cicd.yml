@@ -1,9 +1,7 @@
 name: Continuos Integration/Contiuos Delivery
 
-on:
-push:
-  branches:
-      -main
+on :[push]
+
 
 jobs:
   continuos-integration:
@@ -19,4 +17,3 @@ jobs:
 
       - run: npm install
       
-
