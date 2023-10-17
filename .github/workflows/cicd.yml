@@ -1,6 +1,9 @@
 name: Continuos Integration/Contiuos Delivery
 
-on :[push]
+on:
+ push:
+  branches:
+    - master
 
 
 jobs:
